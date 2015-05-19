@@ -10,22 +10,11 @@ using System.Windows.Forms;
 
 namespace GaSIM_Client
 {
-    public partial class Main : Form
+    public partial class RuntimeConifg : Form
     {
-        public Main()
+        public RuntimeConifg()
         {
             InitializeComponent();
-        }
-
-        private void Main_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void SourceConfigClick(object sender, EventArgs e)
-        {
-            RuntimeConifg sc = new RuntimeConifg();
-            sc.Show();
         }
     }
 }
