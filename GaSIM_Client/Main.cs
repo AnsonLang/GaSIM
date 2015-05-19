@@ -25,7 +25,7 @@ namespace GaSIM_Client
         private void SourceConfigClick(object sender, EventArgs e)
         {
             RuntimeConifg sc = new RuntimeConifg();
-            sc.Show();
+            sc.ShowDialog(this.Parent);
         }
     }
 }

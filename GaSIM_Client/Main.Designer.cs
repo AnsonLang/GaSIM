@@ -50,7 +50,7 @@
             this.其他ToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
-            this.menuStrip.Size = new System.Drawing.Size(622, 25);
+            this.menuStrip.Size = new System.Drawing.Size(573, 25);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "menuStrip1";
             // 
@@ -59,8 +59,9 @@
             this.RuntimeConfig.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.SourceConfig,
             this.接收端配置ToolStripMenuItem});
+            this.RuntimeConfig.Image = ((System.Drawing.Image)(resources.GetObject("RuntimeConfig.Image")));
             this.RuntimeConfig.Name = "RuntimeConfig";
-            this.RuntimeConfig.Size = new System.Drawing.Size(80, 21);
+            this.RuntimeConfig.Size = new System.Drawing.Size(96, 21);
             this.RuntimeConfig.Text = "运行时配置";
             // 
             // SourceConfig
@@ -81,8 +82,9 @@
             this.报表ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.历史KToolStripMenuItem,
             this.预测命中率ToolStripMenuItem});
+            this.报表ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("报表ToolStripMenuItem.Image")));
             this.报表ToolStripMenuItem.Name = "报表ToolStripMenuItem";
-            this.报表ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
+            this.报表ToolStripMenuItem.Size = new System.Drawing.Size(60, 21);
             this.报表ToolStripMenuItem.Text = "报表";
             // 
             // 历史KToolStripMenuItem
@@ -102,8 +104,9 @@
             this.其他ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.导出数据ToolStripMenuItem,
             this.导入数据ToolStripMenuItem});
+            this.其他ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("其他ToolStripMenuItem.Image")));
             this.其他ToolStripMenuItem.Name = "其他ToolStripMenuItem";
-            this.其他ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
+            this.其他ToolStripMenuItem.Size = new System.Drawing.Size(60, 21);
             this.其他ToolStripMenuItem.Text = "其他";
             // 
             // 导出数据ToolStripMenuItem
@@ -122,12 +125,17 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(622, 395);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(573, 381);
             this.Controls.Add(this.menuStrip);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Main";
             this.RightToLeftLayout = true;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "黄金股票短线精灵";
             this.Load += new System.EventHandler(this.Main_Load);
             this.menuStrip.ResumeLayout(false);
